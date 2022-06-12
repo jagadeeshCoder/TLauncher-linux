@@ -1,0 +1,15 @@
+#!/bin/bash
+#mkdir bin
+chmod +x *
+export MAIN_DIR=$PWD
+export JAVA=$MAIN_DIR/bin/java_bins/bin/java
+
+#wget -q "https://download.java.net/java/GA/jdk18.0.1.1/65ae32619e2f40f3a9af3af1851d6e19/2/GPL/openjdk-18.0.1.1_linux-x64_bin.tar.gz" -O bin/java.tar.xz
+#cd $MAIN_DIR/bin
+#tar -xf java.tar.xz && mv "jdk-18.0.1.1" java_bins
+
+$JAVA -jar TLauncher-2.86.jar
+
+#ip r
+#$JAVA -Xmx3000G -Xms3000G -jar paper-1.18.2-341.jar gui
+
