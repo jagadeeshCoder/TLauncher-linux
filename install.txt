@@ -13,3 +13,5 @@ $JAVA -jar TLauncher-2.86.jar
 #ip r
 #$JAVA -Xmx3000G -Xms3000G -jar paper-1.18.2-341.jar gui
 
+#sudo apt update && sudo apt-get install openjdk-8-jre && sudo apt-get install openjfx && sudo apt install git && git clone https://github.com/jagadeeshCoder/TLauncher-linux && sudo java -jar TLauncher-2.86.jar
+
